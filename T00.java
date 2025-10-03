@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.Math;
 
-public class T00 {
+public class JavaApplication {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -10,39 +10,39 @@ public class T00 {
         a = Integer.parseInt(input.nextLine());
         b = Integer.parseInt(input.nextLine());
         if (a % 2 == 0) {
-            System.out.println("bilangan ini " + a + " genap");
+            System.out.println("bilangan pertama: genap");
         } else {
-            System.out.println("bilangan ini " + a + " ganjil");
+            System.out.println("bilangan pertama: ganjil");
         }
         if (b % 2 == 0) {
-            System.out.println("bilangan ini " + b + " genap");
+            System.out.println("bilangan kedua: genap");
         } else {
-            System.out.println("bilangan ini " + b + " ganjil");
+            System.out.println("bilangan kedua: ganjil");
         }
         if (a == b) {
-            System.out.println("nilai " + a + " & " + b + "sama besarnya");
+            System.out.println("kedua bilangan sama besar");
         } else {
             if (a > b) {
-                System.out.println("nilai " + a + " lebih besar dari " + b);
+                System.out.println("bilangan pertama lebih besar");
             } else {
                 if (b > a) {
-                    System.out.println("nilai " + b + " lebih besar dari " + a);
+                    System.out.println("bilangan kedua lebih besar");
                 }
             }
         }
         if (a % 2 == 0) {
             if (b % 2 == 0) {
                 tambah = a + b;
-                System.out.println(tambah);
+                System.out.println("hasil penjumlahan: " + tambah);
             } else {
-                System.out.println("berbeda jenis wak");
+                System.out.println("berbeda jenis");
             }
         } else {
             if (b % 2 != 0) {
                 kali = a * b;
-                System.out.println(kali);
+                System.out.println("hasil perkalian: " + kali);
             } else {
-                System.out.println("berbeda jenis wak");
+                System.out.println("berbeda jenis");
             }
         }
     }
