@@ -10,24 +10,22 @@ public class T00 {
         a = Integer.parseInt(input.nextLine());
         b = Integer.parseInt(input.nextLine());
         if (a % 2 == 0) {
-            System.out.println("Bilangan pertama: genap");
+            System.out.println("Bilangan pertama: Genap");
         } else {
-            System.out.println("Bilangan pertama: ganjil");
+            System.out.println("Bilangan pertama: Ganjil");
         }
         if (b % 2 == 0) {
-            System.out.println("Bilangan kedua: genap");
+            System.out.println("Bilangan kedua: Genap");
         } else {
-            System.out.println("Bilangan kedua: ganjil");
+            System.out.println("Bilangan kedua: Ganjil");
         }
-        if (a == b) {
-            System.out.println("kedua bilangan sama besar");
+        if (a > b) {
+            System.out.println("Bilangan pertama lebih besar");
         } else {
-            if (a > b) {
-                System.out.println("bilangan pertama lebih besar");
+            if (a < b) {
+                System.out.println("Bilangan kedua lebih besar");
             } else {
-                if (b > a) {
-                    System.out.println("bilangan kedua lebih besar");
-                }
+                System.out.println("Kedua bilangan sama besar");
             }
         }
         if (a % 2 == 0) {
